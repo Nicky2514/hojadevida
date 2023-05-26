@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOJA DE VIDA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin: 50px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .left-section {
+      flex: 1;
+      padding: 50px;
+      background-color: #f7f9fc;
+    }
+
+    .right-section {
+      flex: 1;
+      padding: 50px;
+      background-color: #ffffff;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      position: relative;
+    }
+
+    .section:last-child {
+      margin-bottom: 0;
+    }
+
+    .section:after {
+      content: "";
+      position: absolute;
+      bottom: -15px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #cccccc;
+    }
+
+    .header {
+      text-align: center;
+      background-color: #404952;
+      color: #ffffff;
+      padding: 50px 20px;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #333333;
+    }
+
+    p {
+      margin-bottom: 10px;
+      color: #666666;
+    }
+
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #cccccc;
+      margin-bottom: 20px;
+    }
+
+    .skills {
+      margin-top: 30px;
+    }
+
+    .skills ul {
+      padding: 0;
+      margin: 0;
+    }
+
+    .skills li {
+      list-style-type: none;
+      margin-bottom: 5px;
+      color: #666666;
+    }
+
+    .contact-info {
+      margin-bottom: 30px;
+    }
+
+    .contact-info p {
+      margin: 0;
+    }
+
+    .contact-info strong {
+      font-weight: bold;
+    }
+
+    .education-info {
+      margin-bottom: 30px;
+    }
+
+    .education-info h3 {
+      margin-bottom: 10px;
+    }
+
+    .experience-info {
+      margin-bottom: 30px;
+    }
+
+    .experience-info h3 {
+      margin-bottom: 10px;
+    }
+
+    .experience-info p {
+      margin-bottom: 5px;
+    }
+
+    .languages-info {
+      margin-bottom: 30px;
+    }
+
+    .languages-info h3 {
+      margin-bottom: 10px;
+    }
+
+    .references-info {
+      margin-bottom: 30px;
+    }
+
+    .references-info h3 {
+      margin-bottom: 10px;
+    }
+
+    .references-info p {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-section">
+      <div class="header">
+        <h1>Manuel Madrigal</h1>
+        <p>Estudiante</p>
+      </div>
+      <div class="section">
+        <div class="profile-picture"></div>
+        <h2>Información Personal</h2>
+        <div class="contact-info">
+          <p><strong>Teléfono:</strong> 3145824705</p>
+          <p><strong>Correo Electrónico:</strong> manuelmadrigal1303@gmail.com</p>
+          <p><strong>Dirección:</strong> Ciudad, Manizales</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Educación</h2>
+        <div class="education-info">
+          <h3>Bachiller</h3>
+          <p><strong>Colegio</strong> I.T SAN RAFAEL</p>
+          <p><strong>Año de Graduación:</strong> 2020</p>
+          <h3>TECNICO</h3>
+          <p><strong></strong> SENA</p>
+          <p><strong>Año de Graduación:</strong> 2020</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Experiencia Laboral</h2>
+        <div class="experience-info">
+          <h3>CERRAJERO</h3>
+          <p><strong>Empresa:</strong> CERRAJERIA MADRIGAL</p>
+          <p><strong>Fecha:</strong> 2019 - Presente</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="right-section">
+      <div class="section">
+        <h2>FORTALEZAS</h2>
+        <div class="skills">
+          <ul>
+            <li>Atencion cliente</li>
+            <li>HTML Basico</li>
+            <li>Css Basico</li>
+            <li>Manejo Redes Sociales</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Idiomas</h2>
+        <div class="languages-info">
+          <h3>Español</h3>
+          <p>Nativo</p>
+          <h3>Inglés</h3>
+          <p>Basico</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Referencias</h2>
+        <div class="references-info">
+          <h3>Disponibles bajo petición</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
